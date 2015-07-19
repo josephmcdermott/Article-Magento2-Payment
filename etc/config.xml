@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <payment>
+            <codebyjoe_articlepayment_method_one>
+                <active>1</active>
+                <title>CodeByJoe Payment Article Method One</title>
+                <model>CodeByJoe\ArticlePayment\Model\MethodOne</model>
+            </codebyjoe_articlepayment_method_one>
+        </payment>
+    </default>
+</config>
